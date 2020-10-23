@@ -1,0 +1,78 @@
+body {
+    margin: 0px;
+    background-color: gray;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+header h1 {
+    color: white;
+}
+
+header img {
+border-radius: 10px;
+width: 200px;
+height: 250px;
+object-fit: cover;
+border: 10px solid #f0c906;
+}
+
+h1, h2 {
+    font-family: 'Parisienne', cursive;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+main img{
+    max-width: 450px;
+}
+
+a {
+    color: blue;
+}
+
+/*
+Pseudo-Classe
+ex.
+elemento "a" e evento "hover"
+*/
+
+a:hover {
+    color: white;
+    background-color: black;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+}
+
+footer p {
+    font-size: 16px;
+    margin: 0px;
+}
+
+/* todos os elementos da classe caption */
+.caption {
+    color: rgb(54, 52, 52);
+    margin: 0px;
+}

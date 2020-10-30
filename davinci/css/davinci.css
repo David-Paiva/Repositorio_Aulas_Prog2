@@ -19,10 +19,12 @@ header h1 {
 
 header img {
 border-radius: 10px;
-width: 200px;
+width: 250px;
 height: 250px;
 object-fit: cover;
+/*
 border: 10px solid #f0c906;
+*/
 }
 
 h1, h2 {
